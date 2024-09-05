@@ -1,5 +1,5 @@
 import { FaMicrophone } from "react-icons/fa";
-import { FiPlusCircle } from "react-icons/fi";
+import { GoPlusCircle } from "react-icons/go";
 import { IoIosHeartEmpty, IoMdAlbums } from "react-icons/io";
 import { IoSearchOutline, IoTimeOutline } from "react-icons/io5";
 import { TiHome } from "react-icons/ti";
@@ -8,7 +8,7 @@ const Leftbar = () => {
   return (
     <>
       <div className="gradient-eff"></div>
-      <div className="w-72  h-full bg-[#12192C]  p-10 ">
+      <div className="w-80  h-full bg-[#12192C]  p-7 ">
         <div className=" w-full ">
           <h1 className="text-[#1DB954] 2xl:text-2xl uppercase md:text-xl ">
             Musicly
@@ -81,9 +81,9 @@ const Leftbar = () => {
             </h4>
           </span>
 
-          <span className="flex items-center justify-center gap-5 mt-10 border-2 p-3  border-[#1DB954] rounded-sm">
-            
-            <h4 className="uppercase font-medium text-md cursor-pointer">
+          <span className="flex items-center justify-center  p-3  mt-16 border-2 w-full border-[#1DB954] rounded-sm">
+            <h4 className="uppercase font-medium text-md text-[#1DB954] cursor-pointer flex items-center gap-2">
+              <GoPlusCircle className="text-2xl" />
               Add new playlist
             </h4>
           </span>
